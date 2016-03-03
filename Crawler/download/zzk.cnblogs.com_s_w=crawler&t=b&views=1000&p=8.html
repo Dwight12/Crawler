@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>crawler-第8页-博客园找找看</title>
+    <link rel="shortcut icon" href="/Content/Images/favicon.ico" type="image/x-icon"/>
+    <link href="/Content/so.css?id=20140908" rel="stylesheet" type="text/css" />
+    <link href="/Content/jquery-ui-1.8.21.custom.css" rel="stylesheet" type="text/css" />
+    <script src="http://common.cnblogs.com/script/jquery.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery-ui-1.8.11.min.js" type="text/javascript"></script>
+    <script src="/Scripts/Common.js" type="text/javascript"></script>
+    <script src="/Scripts/Search.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.ui.datepicker-zh-CN.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="top_bar">
+        <div class="top_tabs">
+            <a href="http://www.cnblogs.com">« 博客园首页 </a>
+        </div>
+        <div id="span_userinfo">
+        </div>
+    </div>
+    <div id="header">
+        
+<div id="headerMain">
+    <a id="logo" href="/"></a>
+    <div id="searchBox">
+        <div id="searchRangeList">
+            <ul>
+                <li><a href="/s?t=n" onclick="return  channelSwitch(&#39;n&#39;);">新闻</a></li>
+                    <li><a class="tab_selected" href="/s?t=b" onclick="return  channelSwitch(&#39;b&#39;);">博客</a></li>
+                
+                <li><a href="/s?t=k" onclick="return  channelSwitch(&#39;k&#39;);">知识库</a></li>
+                <li><a href="/s?t=q" onclick="return  channelSwitch(&#39;q&#39;);">博问</a></li>
+            </ul>
+        </div>
+        <!--end: searchRangeList -->
+        <div class="seachInput">
+            <input type="text" onchange="ShowtFilter(this, false);" onkeypress="return searchEnter(event);"
+                   value="crawler" name="w" id="w" maxlength="2048" title="博客园 找找看" class="txtSeach" />
+            <input type="button" value="找一下" class="btnSearch" onclick="Search();" />&nbsp;&nbsp;&nbsp;
+            <span class="help_link"><a target="_blank" href="/help">帮助</a></span>
+            <br />
+        </div>
+        <!--end: seachInput -->
+    </div>
+    <!--end: searchBox -->
+    
+</div>
+
+        
+        <div style="clear: both">
+        </div>
+        <!--end: headerMain -->
+        <div id="searchInfo">
+            <span style="float: left; margin-left: 15px;"></span>博客园找找看，找到相关内容<b id="CountOfResults">206</b>篇，用时295毫秒
+        </div>
+        <!--end: searchInfo -->
+    </div>
+    <!--end: header -->
+    <div id="main">
+        <div id="searchResult">
+            <div style="clear: both">
+            </div>
+            <div class="forflow">
+                
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/leeym/archive/2005/03/10/115979.html">Google搜索技术和数据中心揭秘(转贴)</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        才会对Google的服务有所影响。这时候，就需要用一段长时间去收集互联网的数据以重建受损文件。 Google会对Web <strong>Crawler</strong>收集到的网页进行索引， Web <strong>Crawler</strong>亦会对这些网页的作出描述。Hoelzle表示
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/leeym/"  target="_blank" >风语者</a>
+        </span><span class="searchItemInfo-publishDate">2005-03-10</span>
+                            <span class="searchItemInfo-views">浏览(1025)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/leeym/archive/2005/03/10/115979.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/yuzhongwusan/archive/2008/12/06/1348969.html">如何使用robots.txt及其详解</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+         * Disallow: /01/ Disallow: /02/ Disallow: /03/ 禁止某个搜索引擎的访问（下例中的BadBot） User-agent: BadBot Disallow: / 只允许某个搜索引擎的访问（下例中的<strong>Crawler</strong>） User-agent: <strong>Crawler</strong> Disallow: User-agent: * Disallow: / 另外，我觉得有必要进行拓展说明，对robots meta进行一些介绍： Robots META
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/yuzhongwusan/"  target="_blank" >yuzhongwusan</a>
+        </span><span class="searchItemInfo-publishDate">2008-12-06</span>
+            <span class="searchItemInfo-good">推荐(3)</span>
+                    <span class="searchItemInfo-comments">评论(5)</span>
+                    <span class="searchItemInfo-views">浏览(18125)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/yuzhongwusan/archive/2008/12/06/1348969.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/hula/archive/2012/02/24/2366199.html">centos6.2 64bit安装mysql+php</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        " ' '"$http_user_agent" $http_x_forwarded_for'; #limit_zone <strong>crawler</strong> $binary_remote_addr 10m; server { listen 80;...it_conn <strong>crawler</strong> 20; location ~ .*\.(php|php5)?$ { #fastcgi_p
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/hula/"  target="_blank" >hula</a>
+        </span><span class="searchItemInfo-publishDate">2012-02-24</span>
+                            <span class="searchItemInfo-views">浏览(1125)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/hula/archive/2012/02/24/2366199.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/txw1958/archive/2012/07/11/scrapy_introduce.html">Scrapy简介</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        Amazon Associates Web Services) or as a general purpose web <strong>crawler</strong>.尽管Scrapy原本是设计用来屏幕抓取（更精确的说，是网络抓取）的目的，但它也可以用来访...ug your <strong>crawler</strong>一个Telnet控制台Telnet console，可以钩入一个Python的控制台在你的
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/txw1958/"  target="_blank" >方倍工作室</a>
+        </span><span class="searchItemInfo-publishDate">2012-07-11</span>
+                            <span class="searchItemInfo-views">浏览(2312)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/txw1958/archive/2012/07/11/scrapy_introduce.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/xuekyo/archive/2013/04/18/3028559.html">Apache Nutch（一）</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        MAND" echo "where COMMAND is one of:" echo " crawl one-step <strong>crawler</strong> for intranets (DEPRECATED - USE CRAWL SCRIPT...ne-step <strong>crawler</strong> for intranets (DEPRECATED - USE CRAWL SCRIPT
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/xuekyo/"  target="_blank" >Kyle-Java</a>
+        </span><span class="searchItemInfo-publishDate">2013-04-18</span>
+                            <span class="searchItemInfo-views">浏览(3969)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/xuekyo/archive/2013/04/18/3028559.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/eachsoft/articles/32243.html">使用Lucene建立自己的搜索引擎</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        e能够处理任何类型的文本数据；但是它没有内置对Word、Excel、PDF和XML的支持。但是还是有一些解决方案能够让Lucene支持它们中的每一个。关于Lucene的重要一点是，它只是一个搜索引擎，因此没有内置Web图形用户界面和Web <strong>crawler</strong>。要把Lucene集成到你的Web应用程序里，你就要编写一个显示查询表单的servlet或者JSP页面，还要编写另一个列出结果的页面。 用Lucene来建立一个索引 你应用程序的文本内容由Lucene来索引，并
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/eachsoft/"  target="_blank" >信息时代的生存哲学</a>
+        </span><span class="searchItemInfo-publishDate">2004-08-11</span>
+                    <span class="searchItemInfo-comments">评论(1)</span>
+                    <span class="searchItemInfo-views">浏览(1891)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/eachsoft/articles/32243.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/jackyrong/archive/2005/09/09/233539.html">（转）Tomcat5.0-5.5连接池配置指南</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        .本文Matrix永久镜像：http://www.matrix.org.cn/resource/article/43/43722_Tomcat.html 说明：本文可能由Matrix原创，也可能由Matrix的会员整理，或者由Matrix的<strong>Crawler</strong>在全球知名Java或者其他技术相关站点抓取并永久保留镜像，Matrix会保留所有原来的出处URL，并在显著地方作出说明，如果你发觉出处URL有误，请联系Matrix改正. 本文以目前最流行的MySQL为例，讲解
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/jackyrong/"  target="_blank" >jackyrong的世界</a>
+        </span><span class="searchItemInfo-publishDate">2005-09-09</span>
+                            <span class="searchItemInfo-views">浏览(1411)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/jackyrong/archive/2005/09/09/233539.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/chinhr/archive/2007/09/30/911788.html">Oracle 不同版本之区别</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        g the DBA to do a database restore. Use Oracle Ultra Search for searching databases, file systems, etc. The UltraSearch <strong>crawler</strong> fetch data and hand it to Oracle Text to be indexed. Oracle Nameserver is still available, but deprecate
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/chinhr/"  target="_blank" >莫问奴归处</a>
+        </span><span class="searchItemInfo-publishDate">2007-09-30</span>
+                            <span class="searchItemInfo-views">浏览(1407)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/chinhr/archive/2007/09/30/911788.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/qlight/archive/2009/11/26/1611232.html">（转）Linux+Nginx+Php架设高性能WEB服务器</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        1.0;gzip_comp_level 2;gzip_types text/plain application/x-javascript text/css application/xml;gzip_vary on; #limit_zone <strong>crawler</strong> $binary_remote_addr 10m;#多个站点设置，站点文件夹必须放在Nginx的html目录，否则不支持多站点server {listen 80;server_name www.v-ec.com
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/qlight/"  target="_blank" >邱亮</a>
+        </span><span class="searchItemInfo-publishDate">2009-11-26</span>
+                            <span class="searchItemInfo-views">浏览(1213)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/qlight/archive/2009/11/26/1611232.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/shuchao/archive/2009/12/26/seo-intro-crawler-spider-strategy.html">网络爬虫策略介绍</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        SEO, 网络爬虫,网络爬虫策略介绍 Web爬虫(<strong>Crawler</strong>,Robot,Bot,Spider)与爬取(Crawling)，被认为所谓的SEO学习的第一步。由于现在各大搜索引擎提倡通过sitemap主动提交内容，避免一些重要内容没有被及时抓取取到或者
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/shuchao/"  target="_blank" >Google优化</a>
+        </span><span class="searchItemInfo-publishDate">2009-12-26</span>
+            <span class="searchItemInfo-good">推荐(2)</span>
+                            <span class="searchItemInfo-views">浏览(5188)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/shuchao/archive/2009/12/26/seo-intro-crawler-spider-strategy.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/ychellboy/archive/2009/12/28/1634443.html">[转载]Paxos算法在大型系统中常见的应用场景</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        一个2 phase commit的协议，因此它的理论[6]并未经过完全证明。但由于ZooKeeper在Yahoo!内部已经成功应用在HBase, Yahoo! Message Broker, Fetch Service of Yahoo! <strong>crawler</strong>等系统上，因此完全可以放心采用。 另外选择Paxos made live [7]中一段实现体会作为结尾。 * There are significant gaps between the description
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/ychellboy/"  target="_blank" >ychellboy</a>
+        </span><span class="searchItemInfo-publishDate">2009-12-28</span>
+                    <span class="searchItemInfo-comments">评论(1)</span>
+                    <span class="searchItemInfo-views">浏览(2144)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/ychellboy/archive/2009/12/28/1634443.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/sgivee/archive/2010/08/10/1796995.html">ASP.NET使用Request获取来源网址URL参数</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        /////////////// 您的浏览器信息已经完全在我们的掌握中了^&^: 浏览器属性 检测结果 ActiveXControls: AOL: BackgroundSounds: Beta: Browser: CDF: Cookies: <strong>Crawler</strong>: Frames: JavaApplets: JavaScript： MajorVersion: MinorVersion: Platform: Tables: Type: VBScript： Version:
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/sgivee/"  target="_blank" >血吸虫</a>
+        </span><span class="searchItemInfo-publishDate">2010-08-10</span>
+                            <span class="searchItemInfo-views">浏览(1088)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/sgivee/archive/2010/08/10/1796995.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/GT_Andy/archive/2009/11/10/1921952.html">ASP.NET使用Request获取来源网址URL参数</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        /////////////// 您的浏览器信息已经完全在我们的掌握中了^&^: 浏览器属性 检测结果 ActiveXControls: AOL: BackgroundSounds: Beta: Browser: CDF: Cookies: <strong>Crawler</strong>: Frames: JavaApplets: JavaScript： MajorVersion: MinorVersion: Platform: Tables: Type: VBScript： Version:
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/gt_andy/"  target="_blank" >GT_Andy</a>
+        </span><span class="searchItemInfo-publishDate">2009-11-10</span>
+                            <span class="searchItemInfo-views">浏览(12768)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/GT_Andy/archive/2009/11/10/1921952.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/heaad/archive/2011/01/02/1924195.html">那些优雅的数据结构(1) : BloomFilter——大规模数据处理利器</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        970年提出的一种多哈希函数映射的快速查找算法。通常应用在一些需要快速判断某个元素是否属于集合，但是并不严格要求100%正确的场合。 一. 实例 为了说明Bloom Filter存在的重要意义，举一个实例： 假设要你写一个网络蜘蛛（web <strong>crawler</strong>）。由于网络间的链接错综复杂，蜘蛛在网络间爬行很可能会形成“环”。为了避免形成“环”，就需要知道蜘蛛已经访问过那些URL。给一个URL，怎样知道蜘蛛是否已经访问过呢？稍微想想，就会有如下几种方案： 1. 将访问
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/heaad/"  target="_blank" >苍梧</a>
+        </span><span class="searchItemInfo-publishDate">2011-01-02</span>
+            <span class="searchItemInfo-good">推荐(10)</span>
+                    <span class="searchItemInfo-comments">评论(24)</span>
+                    <span class="searchItemInfo-views">浏览(31398)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/heaad/archive/2011/01/02/1924195.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/zhangchaoyang/articles/2059168.html">perl多线程爬虫示例</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        x = Thread::Semaphore->new( 1 ); #my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime; #my $logfile = "<strong>crawler</strong>".($year+1900).($mon+1).$mday.$hour.$min.$sec.".log"; #open(BANLOG,">>$logfile") or die("can't open logfi
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/zhangchaoyang/"  target="_blank" >Orisun</a>
+        </span><span class="searchItemInfo-publishDate">2011-05-26</span>
+                            <span class="searchItemInfo-views">浏览(3743)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/zhangchaoyang/articles/2059168.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/wgkgood/archive/2011/03/18/2066702.html">Linux 下Nginx+Tomcat 完美整合 nginx tomcat 整合方式</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        ry on; server{listen 82;server_name 192.168.0.88;index index.jsp index.htm index.htm;root /usr/webapps/www; #limit_conn <strong>crawler</strong> 20; location ~ .*.jsp${ proxy_pass http://192.168.0.88:8080; } location ~ .*\.(gif|jpg|jpeg|png|bmp|swf)
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/wgkgood/"  target="_blank" >吴光科</a>
+        </span><span class="searchItemInfo-publishDate">2011-03-18</span>
+                            <span class="searchItemInfo-views">浏览(4929)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/wgkgood/archive/2011/03/18/2066702.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/serendipity/articles/2080894.html">关于nutch的配置（转）</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        s the first agent name, and keep the default * at the end of the list. E.g.: BlurflDev,Blurfl,* 其中字段“http.agent.name”为你的<strong>crawler</strong>的名字(记得早期的版本可以不填的，现在的版本不填就报错)，字段http.robots.agents，也可以不填，但是不填的话抓取的时候nutch会报： Fetcher: Your 'http.agent.nam
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/serendipity/"  target="_blank" >xiao晓</a>
+        </span><span class="searchItemInfo-publishDate">2011-06-14</span>
+                            <span class="searchItemInfo-views">浏览(2407)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/serendipity/articles/2080894.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/sunBolg/archive/2012/05/07/2488815.html">爬虫技术</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        ucene.apache.org/nutch/ 。这个项目非常稳定，并且文档丰富。Nutch把多个网页存储在一个文件中。对于大的爬虫来说，这么降低I/O读写，性能更加优秀。 Heritrix是互联网存档的web爬虫。项目地址为http://<strong>crawler</strong>.archive.org/ 。Heritrix专注于大型爬虫的实现。许可证为LGPL。另外提一下，还有一个项目值得关注，那就是apache tika。项目地址为http://tika.apache.org/ 。
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/sunbolg/"  target="_blank" >非长工</a>
+        </span><span class="searchItemInfo-publishDate">2012-05-07</span>
+                            <span class="searchItemInfo-views">浏览(1943)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/sunBolg/archive/2012/05/07/2488815.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/zhongjinbin/archive/2012/09/08/2677067.html">redhat5.5上安装nginx1-1.2.3+tomcat(集群)</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        ; gzip_comp_level 2; gzip_types text/plain application/x-javascript text/css application/xml; gzip_vary on; #limit_zone <strong>crawler</strong> $binary_remote_addr 10m; log_format access '$remote_addr - $remote_user [$time_local] "$request" ' '$sta
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/zhongjinbin/"  target="_blank" >百合之春</a>
+        </span><span class="searchItemInfo-publishDate">2012-09-08</span>
+                            <span class="searchItemInfo-views">浏览(1197)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/zhongjinbin/archive/2012/09/08/2677067.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/liufanping/archive/2012/10/15/2717347.html">Iveely 搜索引擎0.3.0 发布 & 如何搭建自己的搜索引擎</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        RL关联文件 PageRankList 网页权值集合 IndexTemp 索引临时文件 IndexDir 索引文件 SystemUpdate 系统是否更新，标识系统是否存在新的数据产生 CurrentPageIndex 当前网页记录的编号 <strong>Crawler</strong> 爬虫入口地址，支持多地址，以,分隔 第四步： 执行任务，运行IveelySE.Run.Task.exe 运行截图如下： （图一） （图二） 第五步： 执行搜索，打开网页http://127.0.0.1:808
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/liufanping/"  target="_blank" >Iveely Liu</a>
+        </span><span class="searchItemInfo-publishDate">2012-10-15</span>
+            <span class="searchItemInfo-good">推荐(7)</span>
+                    <span class="searchItemInfo-comments">评论(21)</span>
+                    <span class="searchItemInfo-views">浏览(2071)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/liufanping/archive/2012/10/15/2717347.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div id="paging_block"><div class="pager"><a href="/s?w=crawler&t=b&views=1000&p=7" onclick="Return true;;buildPaging(7);return false;">&lt; Prev</a><a href="/s?w=crawler&t=b&views=1000&p=1" class="p_1" onclick="Return true;;buildPaging(1);return false;">1</a><a href="/s?w=crawler&t=b&views=1000&p=2" class="p_2" onclick="Return true;;buildPaging(2);return false;">2</a><a href="/s?w=crawler&t=b&views=1000&p=3" class="p_3" onclick="Return true;;buildPaging(3);return false;">3</a><a href="/s?w=crawler&t=b&views=1000&p=4" class="p_4" onclick="Return true;;buildPaging(4);return false;">4</a><a href="/s?w=crawler&t=b&views=1000&p=5" class="p_5" onclick="Return true;;buildPaging(5);return false;">5</a><a href="/s?w=crawler&t=b&views=1000&p=6" class="p_6" onclick="Return true;;buildPaging(6);return false;">6</a><a href="/s?w=crawler&t=b&views=1000&p=7" class="p_7" onclick="Return true;;buildPaging(7);return false;">7</a><a href="/s?w=crawler&t=b&views=1000&p=8" class="p_8 current" onclick="Return true;;buildPaging(8);return false;">8</a><a href="/s?w=crawler&t=b&views=1000&p=9" class="p_9" onclick="Return true;;buildPaging(9);return false;">9</a><a href="/s?w=crawler&t=b&views=1000&p=10" class="p_10" onclick="Return true;;buildPaging(10);return false;">10</a><a href="/s?w=crawler&t=b&views=1000&p=11" class="p_11" onclick="Return true;;buildPaging(11);return false;">11</a><a href="/s?w=crawler&t=b&views=1000&p=9" onclick="Return true;;buildPaging(9);return false;">Next &gt;</a></div></div><script type="text/javascript">var pagingBuider={"OnlyLinkText":false,"TotalCount":206,"PageIndex":8,"PageSize":20,"ShowPageCount":11,"SkipCount":140,"UrlFormat":"/s?w=crawler&t=b&views=1000&p={0}","OnlickJsFunc":"Return true;","FirstPageLink":"/s?w=crawler&t=b&views=1000&p=1","AjaxUrl":"/","AjaxCallbak":null,"TopPagerId":"pager_top","IsRenderScript":true};function buildPaging(pageIndex){pagingBuider.pageIndex=pageIndex;$.ajax({url:pagingBuider.AjaxUrl,data:JSON.stringify(pagingBuider),type:'post',dataType:'text',contentType:'application/json; charset=utf-8',success:function (data) { $('#paging_block').html(data); var pagerTop=$('#pager_top');if(pageIndex>1){$(pagerTop).html(data).show();}else{$(pagerTop).hide();}}});}</script>
+
+
+            </div>
+        </div>
+        <div class="forflow" id="sidebar">
+            <div class="s_google">
+                用 <a href="javascript:void(0);" title="Google站内搜索" onclick="return google_search()">Google</a> 找一下<br/>
+            </div>
+            
+            <div style="clear: both;">
+            </div>
+            
+            <div style="clear: both;">
+            </div>
+            <div class="sideRightWidget">
+    <b>按浏览数筛选</b><br />
+
+    <ol id="viewsRange">
+        <li ><a href="javascript:void(0);" onclick="Views(0);redirect();">全部</a></li>
+        <li ><a href="javascript:void(0);" onclick="Views(200);redirect();">200以上</a></li>
+        <li ><a href="javascript:void(0);" onclick="Views(500);redirect();">500以上</a></li>
+        <li                                 class="ui-selected"
+><a href="javascript:void(0);" onclick="Views(1000);redirect();">1000以上</a></li>
+    </ol>
+</div>
+
+            <div style="clear: both;">
+            </div>
+            
+            <div class="sideRightWidget">
+    <b>按时间筛选</b><br />
+    <ol id="dateRange">
+        <li                 class="ui-selected"
+><a href="javascript:void(0);" onclick="clearDate();dateRange(null);redirect();">全部</a></li>
+        <li ><a href="javascript:void(0);" onclick="dateRange('One-Week');redirect();">
+                  一周内</a></li>
+        <li ><a href="javascript:void(0);" onclick="dateRange('One-Month');redirect();">
+                  一月内</a></li>
+        <li ><a href="javascript:void(0);" onclick="dateRange('Three-Month');redirect();">
+                  三月内</a></li>
+        <li ><a href="javascript:void(0);" onclick="dateRange('One-Year');redirect();">
+                  一年内</a></li>
+    </ol>
+    <p id="datepicker">
+        自定义:  <input type="text" id="dateMin" 
+        class="datepicker"/>-<input type="text" id="dateMax" class="datepicker"
+        />
+    </p>
+</div>
+
+            <div style="clear: both;">
+            </div>
+            <div class="sideRightWidget">
+                » 去“<a title="博问是博客园提供的问答系统" href="http://q.cnblogs.com/">博问</a>”问一下？
+                    <br />
+                » 搜索“<a href="http://job.cnblogs.com/search/">招聘职位</a>”
+                    <br />
+                » 我有<a href="http://space.cnblogs.com/forum/public">反馈或建议</a>
+            </div>
+            <div id="siderigt_ad">
+                <script type='text/javascript'>
+                var googletag = googletag || {};
+                googletag.cmd = googletag.cmd || [];
+                (function () {
+                    var gads = document.createElement('script');
+                    gads.async = true;
+                    gads.type = 'text/javascript';
+                    var useSSL = 'https:' == document.location.protocol;
+                    gads.src = (useSSL ? 'https:' : 'http:') +
+                    '//www.googletagservices.com/tag/js/gpt.js';
+                    var node = document.getElementsByTagName('script')[0];
+                    node.parentNode.insertBefore(gads, node);
+                })();
+                </script>
+                <script type='text/javascript'>
+                    googletag.cmd.push(function () {
+                        googletag.defineSlot('/1090369/cnblogs_zzk_Z1', [300, 250], 'div-gpt-ad-1410172170550-0').addService(googletag.pubads());
+                        googletag.pubads().enableSingleRequest();
+                        googletag.enableServices();
+                    });
+                </script>
+                <!-- cnblogs_zzk_Z1 -->
+                <div id='div-gpt-ad-1410172170550-0' style='width:300px; height:250px;'>
+                    <script type='text/javascript'>
+                        googletag.cmd.push(function () { googletag.display('div-gpt-ad-1410172170550-0'); });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="clear: both;">
+    </div>
+    
+<div id="footer">
+     &copy; 2004-2016 <a title="开发者的网上家园" href="http://www.cnblogs.com">博客园</a>
+</div>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-476124-10']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+
+    <!--end: footer -->
+</body>
+</html>

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>crawler-第11页-博客园找找看</title>
+    <link rel="shortcut icon" href="/Content/Images/favicon.ico" type="image/x-icon"/>
+    <link href="/Content/so.css?id=20140908" rel="stylesheet" type="text/css" />
+    <link href="/Content/jquery-ui-1.8.21.custom.css" rel="stylesheet" type="text/css" />
+    <script src="http://common.cnblogs.com/script/jquery.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery-ui-1.8.11.min.js" type="text/javascript"></script>
+    <script src="/Scripts/Common.js" type="text/javascript"></script>
+    <script src="/Scripts/Search.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.ui.datepicker-zh-CN.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="top_bar">
+        <div class="top_tabs">
+            <a href="http://www.cnblogs.com">« 博客园首页 </a>
+        </div>
+        <div id="span_userinfo">
+        </div>
+    </div>
+    <div id="header">
+        
+<div id="headerMain">
+    <a id="logo" href="/"></a>
+    <div id="searchBox">
+        <div id="searchRangeList">
+            <ul>
+                <li><a href="/s?t=n" onclick="return  channelSwitch(&#39;n&#39;);">新闻</a></li>
+                    <li><a class="tab_selected" href="/s?t=b" onclick="return  channelSwitch(&#39;b&#39;);">博客</a></li>
+                
+                <li><a href="/s?t=k" onclick="return  channelSwitch(&#39;k&#39;);">知识库</a></li>
+                <li><a href="/s?t=q" onclick="return  channelSwitch(&#39;q&#39;);">博问</a></li>
+            </ul>
+        </div>
+        <!--end: searchRangeList -->
+        <div class="seachInput">
+            <input type="text" onchange="ShowtFilter(this, false);" onkeypress="return searchEnter(event);"
+                   value="crawler" name="w" id="w" maxlength="2048" title="博客园 找找看" class="txtSeach" />
+            <input type="button" value="找一下" class="btnSearch" onclick="Search();" />&nbsp;&nbsp;&nbsp;
+            <span class="help_link"><a target="_blank" href="/help">帮助</a></span>
+            <br />
+        </div>
+        <!--end: seachInput -->
+    </div>
+    <!--end: searchBox -->
+    
+</div>
+
+        
+        <div style="clear: both">
+        </div>
+        <!--end: headerMain -->
+        <div id="searchInfo">
+            <span style="float: left; margin-left: 15px;"></span>博客园找找看，找到相关内容<b id="CountOfResults">206</b>篇，用时171毫秒
+        </div>
+        <!--end: searchInfo -->
+    </div>
+    <!--end: header -->
+    <div id="main">
+        <div id="searchResult">
+            <div style="clear: both">
+            </div>
+            <div class="forflow">
+                
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/sxwgf/archive/2011/09/14/google-arch-collection.html">Google App Engine技术架构资料大盘点</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        r比较类似的产品还有Facebook的 Thrift ，而且 Facebook 号称Thrift在速度上还有一定的优势。 分布式大规模数据处理 MapReduce 首先，在Google数据中心会有大规模数据需要处理，比如被网络爬虫（Web <strong>Crawler</strong>）抓取的大量网页等。由于这些数据很多都是PB级别，导致处理工作不得不尽可能的并行化，而Google为了解决这个问题，引入了 MapReduce这个编程模型，MapReduce是源自函数式语言，主要通过"Map（
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/sxwgf/"  target="_blank" >sxwgf</a>
+        </span><span class="searchItemInfo-publishDate">2011-09-14</span>
+            <span class="searchItemInfo-good">推荐(3)</span>
+                    <span class="searchItemInfo-comments">评论(5)</span>
+                    <span class="searchItemInfo-views">浏览(2256)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/sxwgf/archive/2011/09/14/google-arch-collection.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/hongfei/p/3872156.html">SQLMap用户手册【超详细】</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        数是爬行的深度。例子：$ python sqlmap.py -u "http://192.168.21.128/sqlmap/mysql/" --batch --crawl=3[...][xx:xx:53] [INFO] starting <strong>crawler</strong>[xx:xx:53] [INFO] searching for links with depth 1[xx:xx:53] [WARNING] running in a single-thread mode. T
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/hongfei/"  target="_blank" >曾是土木人</a>
+        </span><span class="searchItemInfo-publishDate">2014-07-27</span>
+            <span class="searchItemInfo-good">推荐(1)</span>
+                            <span class="searchItemInfo-views">浏览(6258)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/hongfei/p/3872156.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/starspace/archive/2008/12/04/1347180.html">PHP开源项目</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        法与jQuery（一个轻量级，实用的javascript框架）相似。从页面中抽取内容只需要一行代码。 OpenWebSpider 【PHP开源 搜索引擎】 OpenWebSpider是一个开源多线程Web Spider（robot：机器人，<strong>crawler</strong>：爬虫)和包含许多有趣功能的搜索引擎。 PHP-Fusion 【PHP开源 内容管理CMS】 PHP-Fusion是一个轻量级开源内容管理系统。它采用mySQL数据库存储网站内容并提供一个简单，全面的后台管理系
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/starspace/"  target="_blank" >starspace</a>
+        </span><span class="searchItemInfo-publishDate">2008-12-04</span>
+                    <span class="searchItemInfo-comments">评论(1)</span>
+                    <span class="searchItemInfo-views">浏览(1720)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/starspace/archive/2008/12/04/1347180.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/sarafill/archive/2011/05/18/2049461.html">java.util.concurrent介绍</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        的许可权，acquire() 方法将成功，否则该方法将被阻塞，直到有可用的许可权（通过其他线程释放许可权）。线程一次可以获得多个许可权。 计数信号可以用于限制有权对资源进行并发访问的线程数。该方法对于实现资源池或限制 Web 爬虫（Web <strong>crawler</strong>）中的输出 socket 连接非常有用。 注意信号不跟踪哪个线程拥有多少许可权；这由应用程序来决定，以确保何时线程释放许可权，该信号表示其他线程拥有许可权或者正在释放许可权，以及其他线程知道它的许可权已释放。 
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/sarafill/"  target="_blank" >sarafill</a>
+        </span><span class="searchItemInfo-publishDate">2011-05-18</span>
+            <span class="searchItemInfo-good">推荐(12)</span>
+                    <span class="searchItemInfo-comments">评论(7)</span>
+                    <span class="searchItemInfo-views">浏览(49105)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/sarafill/archive/2011/05/18/2049461.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/rollenholt/archive/2012/04/08/2437999.html">谈一谈网络编程学习经验</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        客户端，被动接受连接的是服务端。当然，这个“客户端”本身也可能是个后台服务程序，HTTP Proxy 对 HTTP Server 来说就是个客户端。 客户端编程？服务端编程？但是“服务端编程”和“客户端编程”就不那么好区分。比如 Web <strong>crawler</strong>，它会主动发起大量连接，扮演的是 HTTP 客户端的角色，但似乎应该归入“服务端编程”。又比如写一个 HTTP proxy，它既会扮演服务端——被动接受 web browser 发起的连接，也会扮演客户端——主
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/rollenholt/"  target="_blank" >Rollen Holt</a>
+        </span><span class="searchItemInfo-publishDate">2012-04-08</span>
+            <span class="searchItemInfo-good">推荐(1)</span>
+                    <span class="searchItemInfo-comments">评论(1)</span>
+                    <span class="searchItemInfo-views">浏览(3786)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/rollenholt/archive/2012/04/08/2437999.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div class="searchItem">
+    <h3 class="searchItemTitle">
+        <a target="_blank" href="http://www.cnblogs.com/snowball/archive/2006/06/26/435986.html">C# 格式化字符串 String.Format (http://blog.soease.com/andy/)</a>
+    </h3>
+    <!--end: searchItemTitle -->
+    <span class="searchCon">
+        最关心的词，比如：下载，歌星名字，而不是一些抽象名词。 Try to use text instead of images to display important names, content, or links. The Google <strong>crawler</strong> doesn't recognize text contained in images.尽可能使用文本，而不是图片显示重要的名称，内容和链接。GOOGLE的机器人不认识图片中的文字。 Make sure tha
+    </span>
+    <!--end: searchCon -->
+    <div class="searchItemInfo">
+        <span class="searchItemInfo-userName"><a href="http://www.cnblogs.com/snowball/"  target="_blank" >共同学习，共同进步</a>
+        </span><span class="searchItemInfo-publishDate">2006-06-26</span>
+                            <span class="searchItemInfo-views">浏览(4394)</span>
+    </div>
+    <div class="searchItemInfo">
+        <span class="searchURL">www.cnblogs.com/snowball/archive/2006/06/26/435986.html</span>
+    </div>
+    <!--end: searchURL -->
+</div>
+<div id="paging_block"><div class="pager"><a href="/s?w=crawler&t=b&views=1000&p=10" onclick="Return true;;buildPaging(10);return false;">&lt; Prev</a><a href="/s?w=crawler&t=b&views=1000&p=1" class="p_1" onclick="Return true;;buildPaging(1);return false;">1</a><a href="/s?w=crawler&t=b&views=1000&p=2" class="p_2" onclick="Return true;;buildPaging(2);return false;">2</a><a href="/s?w=crawler&t=b&views=1000&p=3" class="p_3" onclick="Return true;;buildPaging(3);return false;">3</a><a href="/s?w=crawler&t=b&views=1000&p=4" class="p_4" onclick="Return true;;buildPaging(4);return false;">4</a><a href="/s?w=crawler&t=b&views=1000&p=5" class="p_5" onclick="Return true;;buildPaging(5);return false;">5</a><a href="/s?w=crawler&t=b&views=1000&p=6" class="p_6" onclick="Return true;;buildPaging(6);return false;">6</a><a href="/s?w=crawler&t=b&views=1000&p=7" class="p_7" onclick="Return true;;buildPaging(7);return false;">7</a><a href="/s?w=crawler&t=b&views=1000&p=8" class="p_8" onclick="Return true;;buildPaging(8);return false;">8</a><a href="/s?w=crawler&t=b&views=1000&p=9" class="p_9" onclick="Return true;;buildPaging(9);return false;">9</a><a href="/s?w=crawler&t=b&views=1000&p=10" class="p_10" onclick="Return true;;buildPaging(10);return false;">10</a><a href="/s?w=crawler&t=b&views=1000&p=11" class="p_11 current" onclick="Return true;;buildPaging(11);return false;">11</a></div></div><script type="text/javascript">var pagingBuider={"OnlyLinkText":false,"TotalCount":206,"PageIndex":11,"PageSize":20,"ShowPageCount":11,"SkipCount":200,"UrlFormat":"/s?w=crawler&t=b&views=1000&p={0}","OnlickJsFunc":"Return true;","FirstPageLink":"/s?w=crawler&t=b&views=1000&p=1","AjaxUrl":"/","AjaxCallbak":null,"TopPagerId":"pager_top","IsRenderScript":true};function buildPaging(pageIndex){pagingBuider.pageIndex=pageIndex;$.ajax({url:pagingBuider.AjaxUrl,data:JSON.stringify(pagingBuider),type:'post',dataType:'text',contentType:'application/json; charset=utf-8',success:function (data) { $('#paging_block').html(data); var pagerTop=$('#pager_top');if(pageIndex>1){$(pagerTop).html(data).show();}else{$(pagerTop).hide();}}});}</script>
+
+
+            </div>
+        </div>
+        <div class="forflow" id="sidebar">
+            <div class="s_google">
+                用 <a href="javascript:void(0);" title="Google站内搜索" onclick="return google_search()">Google</a> 找一下<br/>
+            </div>
+            
+            <div style="clear: both;">
+            </div>
+            
+            <div style="clear: both;">
+            </div>
+            <div class="sideRightWidget">
+    <b>按浏览数筛选</b><br />
+
+    <ol id="viewsRange">
+        <li ><a href="javascript:void(0);" onclick="Views(0);redirect();">全部</a></li>
+        <li ><a href="javascript:void(0);" onclick="Views(200);redirect();">200以上</a></li>
+        <li ><a href="javascript:void(0);" onclick="Views(500);redirect();">500以上</a></li>
+        <li                                 class="ui-selected"
+><a href="javascript:void(0);" onclick="Views(1000);redirect();">1000以上</a></li>
+    </ol>
+</div>
+
+            <div style="clear: both;">
+            </div>
+            
+            <div class="sideRightWidget">
+    <b>按时间筛选</b><br />
+    <ol id="dateRange">
+        <li                 class="ui-selected"
+><a href="javascript:void(0);" onclick="clearDate();dateRange(null);redirect();">全部</a></li>
+        <li ><a href="javascript:void(0);" onclick="dateRange('One-Week');redirect();">
+                  一周内</a></li>
+        <li ><a href="javascript:void(0);" onclick="dateRange('One-Month');redirect();">
+                  一月内</a></li>
+        <li ><a href="javascript:void(0);" onclick="dateRange('Three-Month');redirect();">
+                  三月内</a></li>
+        <li ><a href="javascript:void(0);" onclick="dateRange('One-Year');redirect();">
+                  一年内</a></li>
+    </ol>
+    <p id="datepicker">
+        自定义:  <input type="text" id="dateMin" 
+        class="datepicker"/>-<input type="text" id="dateMax" class="datepicker"
+        />
+    </p>
+</div>
+
+            <div style="clear: both;">
+            </div>
+            <div class="sideRightWidget">
+                » 去“<a title="博问是博客园提供的问答系统" href="http://q.cnblogs.com/">博问</a>”问一下？
+                    <br />
+                » 搜索“<a href="http://job.cnblogs.com/search/">招聘职位</a>”
+                    <br />
+                » 我有<a href="http://space.cnblogs.com/forum/public">反馈或建议</a>
+            </div>
+            <div id="siderigt_ad">
+                <script type='text/javascript'>
+                var googletag = googletag || {};
+                googletag.cmd = googletag.cmd || [];
+                (function () {
+                    var gads = document.createElement('script');
+                    gads.async = true;
+                    gads.type = 'text/javascript';
+                    var useSSL = 'https:' == document.location.protocol;
+                    gads.src = (useSSL ? 'https:' : 'http:') +
+                    '//www.googletagservices.com/tag/js/gpt.js';
+                    var node = document.getElementsByTagName('script')[0];
+                    node.parentNode.insertBefore(gads, node);
+                })();
+                </script>
+                <script type='text/javascript'>
+                    googletag.cmd.push(function () {
+                        googletag.defineSlot('/1090369/cnblogs_zzk_Z1', [300, 250], 'div-gpt-ad-1410172170550-0').addService(googletag.pubads());
+                        googletag.pubads().enableSingleRequest();
+                        googletag.enableServices();
+                    });
+                </script>
+                <!-- cnblogs_zzk_Z1 -->
+                <div id='div-gpt-ad-1410172170550-0' style='width:300px; height:250px;'>
+                    <script type='text/javascript'>
+                        googletag.cmd.push(function () { googletag.display('div-gpt-ad-1410172170550-0'); });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="clear: both;">
+    </div>
+    
+<div id="footer">
+     &copy; 2004-2016 <a title="开发者的网上家园" href="http://www.cnblogs.com">博客园</a>
+</div>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-476124-10']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+
+    <!--end: footer -->
+</body>
+</html>
