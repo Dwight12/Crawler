@@ -14,7 +14,7 @@ import org.apache.commons.httpclient.methods.GetMethod;
 import org.apache.commons.httpclient.params.HttpMethodParams;
 
 /**
- * Created by dwight12 on 2016/3/2.
+ * Created by dwight12 on 2016/1/2.
  */
 
 public class FileDownloader {
