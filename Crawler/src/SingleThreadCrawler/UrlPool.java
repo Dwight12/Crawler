@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Set;
 
 /**
- * Created by dwight12 on 2016/3/1.
+ * Created by dwight12 on 2016/1/1.
  */
 public class UrlPool {
     private static Set<String> visitedUrl = new HashSet<String>();
